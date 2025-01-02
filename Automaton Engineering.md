@@ -3,7 +3,7 @@
 `1656376`
 `27/11/2024`
 
-For a language $L \subseteq \Sigma^*$, for some alphabet $\Sigma$, the language $\text{MID}(L)$ is given by $$\text{MID}(L) = \{ w \in \Sigma^* \, | \, \exists x,y \in \Sigma^* \, : xwy \in L \}$$
+For a language $L \subseteq \Sigma^\*$, for some alphabet $\Sigma$, the language $\text{MID}(L)$ is given by $$\text{MID}(L) = \{ w \in \Sigma^* \, | \, \exists x,y \in \Sigma^* \, : xwy \in L \}$$
 Thus, $\text{MID}(L)$ consists of strings from $L$, with some (possibly empty) beginning and ending missing. Prove that $\text{MID}(L)$ is a regular language if $L$ is a regular language.
 # Proof
 Let $D=(Q, \Sigma, \delta, q_0, F)$ be a DFA that recognizes the language $L$. We can construct an NFA $N = (Q', \Sigma, \delta', q'_0, F')$ as follows:
